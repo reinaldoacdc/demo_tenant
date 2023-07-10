@@ -88,3 +88,7 @@ gem "whenever", require: false
 gem "responders", github: "heartcombo/responders", branch: "main"
 
 gem "acts_as_tenant", "~> 0.6.1"
+
+gem "dockerfile-rails", ">= 1.5", :group => :development
+
+gem "pg", "~> 1.5"
