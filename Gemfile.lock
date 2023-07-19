@@ -139,6 +139,9 @@ GEM
     loofah (2.21.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
+    madmin (1.2.8)
+      pagy (>= 3.5)
+      rails (>= 6.0.3)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
@@ -197,6 +200,7 @@ GEM
       omniauth-oauth (~> 1.1)
       rack
     orm_adapter (0.5.0)
+    pagy (6.0.4)
     pg (1.5.3)
     pretender (0.3.4)
       actionpack (>= 4.2)
@@ -317,6 +321,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   jsbundling-rails
+  madmin
   name_of_person (~> 1.1)
   omniauth-facebook (~> 8.0)
   omniauth-github (~> 2.0)
