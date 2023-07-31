@@ -31,3 +31,11 @@ flowchart TD
     D --> B
     B -- No ----> E[End]
 ```
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
